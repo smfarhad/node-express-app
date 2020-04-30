@@ -1,5 +1,5 @@
 {
-  "name": "node-express-app",
+  "name": "express-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,6 @@
     "type": "git",
     "url": "git+https://github.com/smfarhad/node-express-app.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -18,7 +17,7 @@
   },
   "homepage": "https://github.com/smfarhad/node-express-app#readme",
   "dependencies": {
-    "mongoose": "^5.9.10",
-    "underscore": "^1.10.2"
+    "@hapi/joi": "^17.1.1",
+    "express": "^4.17.1"
   }
 }
